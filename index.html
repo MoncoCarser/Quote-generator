@@ -3,14 +3,37 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design">
+	<link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=quora.com">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Quote machine</title>
 </head>
+
 <body>
-<i class="fa-solid fa-rocket"></i>
+	<div class="quote-container" id="quote-container">
+		<!-- Quote -->
+		<div clasS="quote-text">
+			<i class="fas fa-quote-left"></i>
+			<span id="quote"></span>
+		</div>
+		<!-- Author -->
+		<div class="quote-author">
+			<span id="author"></span>
+		</div>
+		<!-- Buttons -->
+		<div class="button-container">
+			<button class="twitter-button" id="twitter" title="Tweet this!">
+				<i class="fab fa-twitter"></i>
+			</button>
+			<button id="new-quote">New Quote</button>
+		</div>
+	</div>
+<!-- Loader -->
+<div class="loader" id="loader"></div>
+
+
 <!-- Script -->
 <script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
